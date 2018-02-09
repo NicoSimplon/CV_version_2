@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #C0C0C0;
+	font-family: ubuntu;
+	color: white
+}
+h1, h3 {
+	font-variant: small-caps;
+}
+/*_______________________NAVIGATION_____________________________*/
+
+#nav{
+	z-index: 1;
+	top: 0px;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background: #696969;
+	text-align: center;
+	border-top: 10px solid #696969;
+	border-bottom: 1px solid black;
+
+}
+
+.ButonNav{
+	display: inline-block;	
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.ButonNav :hover{
+    background-color:  grey;
+    color:  white;
+    border: solid white;
+}
+
+.btn-primary{
+    border: solid #696969;
+    background-color: #C0C0C0;
+    color:#000000;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/*___________________________PRINCIPALE____________________________________*/
+
+
+
+#principal{
+	display: block;
+	position: absolute;
+	width: 60%;
+	top: 50px;
+    right: 10%;
+}
+
+#titre{
+	display: block;
+	width: 750px;
+	background: #696969;
+	text-align: center;
+    margin-top:  50px;
+    margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius:  10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+#iconesLang{
+}
+
+
+.icoSolo{
+
+	padding: auto;
+	margin-left: 10%
+}
+
+.divBlock{
+	display: block;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	background: #696969;
+	padding: 20px;
+	margin: 30px;
+}
+
+#accroche{
+	display: block;
+	width: 60%;
+	border-radius: 10px;
+	background: #696969;
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+
+}
+
+.competSolo{
+	display: inline-block;
+	vertical-align: middle;
+	background: #C0C0C0;
+	color: black;
+	height: 150px;
+	width: 150px;
+	margin-top: 5px;
+	text-align: center;
+    border-radius: 10px;
+}
+
+.lien{
+	color: white;
+    text-decoration: underline;
+}
+
+.lien:hover{
+    background-color:  grey;
+    color:  white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :hover{
+    background-color:  grey;
+    color:  white;
+    text-decoration: none;
+}
+
+p{
+    margin:  0;
+}
+
+/*__________________________________SIDER_____________________________________*/
+
+#photo{
+	width: 300px;
+	height: 300px;
+    margin-left:  6%;
+    border-radius:  10px;
+}
+
+#aside{
+	display: block;
+	position: absolute;
+	width: 25%;
+	height: auto;
+	top: 50px;
+    left: 20px;
+	padding: 20px;
+	margin: 0px;
+}
+
+.miniPicto{
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.etatCivil{
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+#dl{
+	background: #696969;
+	margin-left: 10%;
+	border: none;
+	color: white;
+    border-radius: 10px;
+}
+
+#lienPrint {
+	text-decoration: none;
+    width:  50px;
+}
+
+#lienPrint :hover {
+	cursor: pointer;
+    background-color: grey;
+    border: 4px solid white;
+}
+
+
+
+
+#overlayC1{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlayC1:target{
+    display: block;
+}
+
+#overlayC1 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 30%;
+    left: 40%;
+	text-decoration: none;
+}
+
+#overlayC2{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlayC2:target{
+    display: block;
+}
+
+#overlayC2 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 30%;
+    left: 45%;
+	text-decoration: none;
+}
+
+#overlay1{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay1:target{
+    display: block;
+}
+
+#overlay1 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 40%;
+    left: 50%;
+	text-decoration: none;
+}
+
+#overlay2{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay2:target{
+    display: block;
+}
+
+#overlay2 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 40%;
+    left: 55%;
+	text-decoration: none;
+}
+
+#overlay3{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay3:target{
+    display: block;
+}
+
+#overlay3 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 45%;
+    left: 40%;
+	text-decoration: none;
+}
+
+#overlay4{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay4:target{
+    display: block;
+}
+
+#overlay4 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 45%;
+    left: 45%;
+	text-decoration: none;
+}
+
+#overlay5{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay5:target{
+    display: block;
+}
+
+#overlay5 a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 45%;
+    left: 50%;
+	text-decoration: none;
+}
